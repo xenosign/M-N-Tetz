@@ -6,7 +6,10 @@ import Card from './components/Card';
 
 const style = {
   display: 'grid',
-  gridTemplateColumns: '200px 200px 200px',
+  gridTemplateRows: '100px 100px 100px 100px 100px 100px',
+  gridAutoFlow: 'column',
+  rowGap: 0,
+  columnGap: 10,
   width: 600,
 };
 

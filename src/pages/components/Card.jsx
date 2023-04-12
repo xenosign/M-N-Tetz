@@ -43,7 +43,7 @@ const Card = ({ id, text, index, moveCard }) => {
     }),
   });
 
-  const opacity = isDragging ? 0 : 1;
+  const opacity = isDragging ? 0.4 : 1;
   drag(drop(ref));
 
   return (
